@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    position: relative;
+}
+.icon{
+    display: flex;
+    width: 50px;
+    width: 50px;
+}
+.heading{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    flex-wrap:wrap;
+    /* margin-right: 100px; */
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100vw;
+    height:2em;
+    align-items: center;
+    background-color: rgb(0, 11, 11);
+    text-transform: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.search{
+    /* display: flex; */
+    color: white;
+    background-color: rgb(9, 72, 232);
+    height: 2em;
+    width: 5em;
+    padding-left:none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.seraching{
+    flex-direction: wrap;
+}
+#li1{
+        position: relative;
+        list-style: none;
+        width: fit-content;
+        left:85%;
+}
+
+.artical{
+    /* position: absolute;  */
+    /* right:0px    ; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.articalul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    align-items: start;
+    position: absolute;
+    /* padding-bottom: 20px; */
+    /* right:0px; */
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:20vh;
+}
+
+.a1{
+    /* display: flex;
+    justify-content: space-between; */
+    color: black;
+    padding-bottom: 50px;
+    margin-left: 50px;
+   
+
+}
+.readmore{
+    color: white;
+    background-color: rgb(9, 72, 232);
+    border-radius: 15px;
+}
+.artical{
+    /* background-color: bisque; */
+}
+footer{
+    /* position : fixed; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 2, 3);
+    margin-left: 50%;
+    margin-top:100vh;
+    
+}
